@@ -1,0 +1,34 @@
+{
+  "name": "cosmos-aws-kms-signer",
+  "version": "1.0.0",
+  "description": "Cosmos transaction signer using AWS KMS",
+  "type": "module",
+  "main": "cosmos-txs.ts",
+  "scripts": {
+    "test": "tsx test.ts"
+  },
+  "keywords": [
+    "cosmos",
+    "aws",
+    "kms",
+    "signer",
+    "blockchain"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-kms": "^3.0.0",
+    "@cosmjs/crypto": "^0.37.0",
+    "@cosmjs/encoding": "^0.37.0",
+    "@cosmjs/proto-signing": "^0.37.0",
+    "@cosmjs/stargate": "^0.37.0",
+    "@estos/asn1ts": "^3.2.3",
+    "cosmjs-types": "^0.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
+
